@@ -5710,8 +5710,10 @@ __metadata:
     burnt: "npm:^0.12.2"
     expo-constants: "npm:~16.0.2"
     expo-linking: "npm:~6.3.1"
+    pocketbase: "npm:^0.21.4"
     react-native-safe-area-context: "npm:4.10.4"
     solito: "npm:^4.2.2"
+    zustand: "npm:^4.5.4"
   languageName: unknown
   linkType: soft
 
@@ -13356,6 +13358,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"pocketbase@npm:^0.21.4":
+  version: 0.21.4
+  resolution: "pocketbase@npm:0.21.4"
+  checksum: 10/ef6c69abb6dc89b67c4d4b8076a0b141b16b109f778de1c7750370de91bd3df2cc702e739fc014b129d86858339fd56210c14474215cc12146669bb54fbce566
+  languageName: node
+  linkType: hard
+
 "pocketchat@workspace:.":
   version: 0.0.0-use.local
   resolution: "pocketchat@workspace:."
@@ -17048,5 +17057,25 @@ __metadata:
     react:
       optional: true
   checksum: 10/9e9e92ce7378c5de1d7682f4f10340a1c07a81b673ad0a125b59883a6ade3f2bf39eac6ccc5b05630f9df6ed925291f681592db59ccd3815685c2e83f67c8525
+  languageName: node
+  linkType: hard
+
+"zustand@npm:^4.5.4":
+  version: 4.5.4
+  resolution: "zustand@npm:4.5.4"
+  dependencies:
+    use-sync-external-store: "npm:1.2.0"
+  peerDependencies:
+    "@types/react": ">=16.8"
+    immer: ">=9.0.6"
+    react: ">=16.8"
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    immer:
+      optional: true
+    react:
+      optional: true
+  checksum: 10/44431b75f055c5440f47f448124f86230e1612bca8b09527890ec67a10b55f7ef9c288301f89346630552357627380c28222d933accdb55c119cf05e15f9e6cc
   languageName: node
   linkType: hard
